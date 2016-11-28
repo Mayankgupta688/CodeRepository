@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.1/angular.js"></script>
+		<script data-main="script/main" src="script/require.js"></script>
+	</head>
+	<body ng-app="appModule">
+
+		<div ng-controller="organisationController">
+			My Organisation is {{organisationName}}
+		</div><br><br>
+
+		<div ng-controller="customerController">
+			My Customer is {{customerName}}
+		</div><br><br>
+
+		<div ng-controller="recieptController">
+			My Reciept Id is {{recieptName}}
+		</div>
+
+	</body>
+</html>
